@@ -1,5 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&family=Dancing+Script:wght@400..700&family=Jomhuria&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playwrite+HU:wght@100..400&display=swap');
+
+
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+
+  font-family: cairo;
+}
+
+header {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 3rem;
+}
+
+header h1 {
+  color: #e91e63;
+}
+
+ul {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+ul li {
+  list-style: none;
+  margin-right: 20px;
+}
+
+/* Hero Section */
+.hero-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFDFE5;
+    height: 300px;
+}
+
+.hero-section h1 {
+    margin-bottom: 10px;
 }
