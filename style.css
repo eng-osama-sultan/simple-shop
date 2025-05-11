@@ -129,3 +129,14 @@ h2 {
   width: fit-content;
   margin: auto;
 }
+
+/* Footer */
+footer {
+    display: flex;
+    justify-content: center;
+    padding: 25px;
+    background-color: #ddd;
+    ;
+}
+
+
